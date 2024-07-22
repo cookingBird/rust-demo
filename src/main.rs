@@ -1,4 +1,4 @@
-// mod arrays_slices;
+mod arrays_slices;
 mod debug;
 mod display;
 mod format_print;
@@ -22,6 +22,6 @@ fn main() {
     operator::main();
     print!("--------------------------------------tuples\n");
     tuples::main();
-    // print!("--------------------------------------arrays\n");
-    // arrays_slices::main();
+    print!("--------------------------------------arrays\n");
+    arrays_slices::main();
 }
