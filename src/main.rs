@@ -5,6 +5,7 @@ mod format_print;
 mod formatting;
 mod hello_world;
 mod operator;
+mod structure;
 mod tuples;
 
 fn main() {
@@ -24,4 +25,6 @@ fn main() {
     tuples::main();
     print!("--------------------------------------arrays\n");
     arrays_slices::main();
+    print!("--------------------------------------structure\n");
+    structure::main();
 }
